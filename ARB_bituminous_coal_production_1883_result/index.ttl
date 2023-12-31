@@ -1,0 +1,10 @@
+@prefix ns1: <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://archaeolink.github.io/hgis_rdf/ARB_bituminous_coal_production_1883_result> a <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Arnsberg bituminous coal production observation result for year 1883"@en ;
+    ns1:hasNumericalValue 17339806 ;
+    ns1:hasUnit ns1:tonne .
+

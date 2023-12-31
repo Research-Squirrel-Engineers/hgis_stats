@@ -1,0 +1,10 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://archaeolink.github.io/hgis_rdf/URK_steel_production_1852_te> a time:Instant,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Unterrheinkreis steel production observation time instant for year 1852"@en ;
+    time:inXSDgYear "1852"^^xsd:gYear .
+

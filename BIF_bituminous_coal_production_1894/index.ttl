@@ -1,0 +1,14 @@
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+
+<http://archaeolink.github.io/hgis_rdf/BIF_bituminous_coal_production_1894> a <http://www.w3.org/ns/ldp#Resource>,
+        sosa:Observation,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Birkenfeld bituminous coal production observation for year 1894"@en ;
+    sosa:hasFeatureOfInterest <http://archaeolink.github.io/hgis_rdf/BIF> ;
+    sosa:hasResult <http://archaeolink.github.io/hgis_rdf/BIF_bituminous_coal_production_1894_result> ;
+    sosa:observedProperty <http://www.wikidata.org/entity/Q732607> ;
+    sosa:phenomenonTime <http://archaeolink.github.io/hgis_rdf/BIF_bituminous_coal_production_1894_te> ;
+    ns1:P1480 <http://www.wikidata.org/entity/Q60070514> .
+

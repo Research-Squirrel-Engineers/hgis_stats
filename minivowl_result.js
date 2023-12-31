@@ -54,13 +54,6 @@ var minivowlresult={
  "links": [
   {
    "source": 3,
-   "target": 4,
-   "valueTo": "phenomenonTime",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/sosa/phenomenonTime"
-  },
-  {
-   "source": 3,
    "target": 8,
    "valueTo": "observedProperty",
    "propertyTo": "class",
@@ -74,6 +67,13 @@ var minivowlresult={
    "uriTo": "http://www.w3.org/ns/sosa/hasFeatureOfInterest"
   },
   {
+   "source": 3,
+   "target": 4,
+   "valueTo": "phenomenonTime",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/sosa/phenomenonTime"
+  },
+  {
    "source": 2,
    "target": 3,
    "valueTo": "member",
@@ -82,10 +82,10 @@ var minivowlresult={
   },
   {
    "source": 5,
-   "target": 2,
-   "valueTo": "hasObservation",
+   "target": 6,
+   "valueTo": "creator",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/sosa/hasObservation"
+   "uriTo": "http://purl.org/dc/terms/creator"
   },
   {
    "source": 2,
@@ -96,10 +96,10 @@ var minivowlresult={
   },
   {
    "source": 5,
-   "target": 6,
-   "valueTo": "creator",
+   "target": 2,
+   "valueTo": "hasObservation",
    "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
+   "uriTo": "http://www.w3.org/ns/sosa/hasObservation"
   }
  ]
 }

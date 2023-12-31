@@ -1,0 +1,14 @@
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+
+<http://archaeolink.github.io/hgis_rdf/POR_ore_production_1897> a <http://www.w3.org/ns/ldp#Resource>,
+        sosa:Observation,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Posen ore production observation for year 1897"@en ;
+    sosa:hasFeatureOfInterest <http://archaeolink.github.io/hgis_rdf/POR> ;
+    sosa:hasResult <http://archaeolink.github.io/hgis_rdf/POR_ore_production_1897_result> ;
+    sosa:observedProperty <http://www.wikidata.org/entity/Q102798> ;
+    sosa:phenomenonTime <http://archaeolink.github.io/hgis_rdf/POR_ore_production_1897_te> ;
+    ns1:P1480 <http://www.wikidata.org/entity/Q60070514> .
+

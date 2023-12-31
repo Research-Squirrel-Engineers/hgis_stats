@@ -1,0 +1,10 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://archaeolink.github.io/hgis_rdf/AND_population_1824_te> a time:Instant,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Anhalt-Dessau population observation time instant for year 1824"@en ;
+    time:inXSDgYear "1824"^^xsd:gYear .
+

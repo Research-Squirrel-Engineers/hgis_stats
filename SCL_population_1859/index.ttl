@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://archaeolink.github.io/hgis_rdf/SCL_population_1859> a <http://www.w3.org/ns/ldp#Resource>,
+        sosa:Observation,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Schleswig population observation for year 1859"@en ;
+    sosa:hasFeatureOfInterest <http://archaeolink.github.io/hgis_rdf/SCL> ;
+    sosa:hasSimpleResult 407058 ;
+    sosa:observedProperty <http://www.wikidata.org/entity/Q33829> ;
+    sosa:phenomenonTime <http://archaeolink.github.io/hgis_rdf/SCL_population_1859_te> ;
+    ns1:P1480 <http://www.wikidata.org/entity/Q60070514> .
+

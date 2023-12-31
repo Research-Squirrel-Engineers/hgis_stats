@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://archaeolink.github.io/hgis_rdf/HAN_steel_production> a <http://www.w3.org/ns/ldp#Resource>,
+        sosa:ObservationCollection,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "steel production of Königreich Hannover"@en ;
+    dcterms:created "2008"^^xsd:gYear ;
+    dcterms:creator <http://archaeolink.github.io/hgis_rdf/Andreas_Kunz> ;
+    dcterms:publisher "IEG" ;
+    rdfs:member <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1866>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1867>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1868>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1869>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1870>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1871>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1872>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1873>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1874>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1875>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1876>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1877>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1878>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1879>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1880>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1881>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1882>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1883>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1884>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1885>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1886>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1887>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1888>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1889>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1890>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1891>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1892>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1893>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1894>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1895>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1896>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1897>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1898>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1899>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1900>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1901>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1902>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1903>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1904>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1905>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1906>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1907>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1908>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1909>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1910>,
+        <http://archaeolink.github.io/hgis_rdf/HAN_steel_production_1911> .
+

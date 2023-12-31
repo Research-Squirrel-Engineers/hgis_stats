@@ -1,0 +1,44 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production> a <http://www.w3.org/ns/ldp#Resource>,
+        sosa:ObservationCollection,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "brown coal production of Reuß jüngere Linie"@en ;
+    dcterms:created "2008"^^xsd:gYear ;
+    dcterms:creator <http://archaeolink.github.io/hgis_rdf/Andreas_Kunz> ;
+    dcterms:publisher "IEG" ;
+    rdfs:member <http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production_1850>,
+        <http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production_1851>,
+        <http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production_1852>,
+        <http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production_1853>,
+        <http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production_1854>,
+        <http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production_1855>,
+        <http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production_1856>,
+        <http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production_1857>,
+        <http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production_1861>,
+        <http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production_1862>,
+        <http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production_1863>,
+        <http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production_1864>,
+        <http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production_1865>,
+        <http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production_1866>,
+        <http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production_1867>,
+        <http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production_1868>,
+        <http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production_1869>,
+        <http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production_1870>,
+        <http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production_1871>,
+        <http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production_1872>,
+        <http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production_1873>,
+        <http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production_1874>,
+        <http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production_1875>,
+        <http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production_1876>,
+        <http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production_1877>,
+        <http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production_1878>,
+        <http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production_1879>,
+        <http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production_1880>,
+        <http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production_1881>,
+        <http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production_1882>,
+        <http://archaeolink.github.io/hgis_rdf/RJL_brown_coal_production_1886> .
+

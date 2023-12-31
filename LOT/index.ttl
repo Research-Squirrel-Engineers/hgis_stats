@@ -1,0 +1,16 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://archaeolink.github.io/hgis_rdf/LOT> a <http://www.w3.org/ns/ldp#Resource>,
+        sosa:Platform,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Lothringen"@en ;
+    dcterms:created "2008"^^xsd:gYear ;
+    dcterms:creator <http://archaeolink.github.io/hgis_rdf/Andreas_Kunz> ;
+    dcterms:publisher "IEG" ;
+    sosa:hasObservation <http://archaeolink.github.io/hgis_rdf/LOT_bituminous_coal_production>,
+        <http://archaeolink.github.io/hgis_rdf/LOT_pig_iron_production>,
+        <http://archaeolink.github.io/hgis_rdf/LOT_population> .
+

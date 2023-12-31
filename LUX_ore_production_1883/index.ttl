@@ -1,0 +1,14 @@
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+
+<http://archaeolink.github.io/hgis_rdf/LUX_ore_production_1883> a <http://www.w3.org/ns/ldp#Resource>,
+        sosa:Observation,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Luxemburg ore production observation for year 1883"@en ;
+    sosa:hasFeatureOfInterest <http://archaeolink.github.io/hgis_rdf/LUX> ;
+    sosa:hasResult <http://archaeolink.github.io/hgis_rdf/LUX_ore_production_1883_result> ;
+    sosa:observedProperty <http://www.wikidata.org/entity/Q102798> ;
+    sosa:phenomenonTime <http://archaeolink.github.io/hgis_rdf/LUX_ore_production_1883_te> ;
+    ns1:P1480 <http://www.wikidata.org/entity/Q29509043> .
+

@@ -1,0 +1,14 @@
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+
+<http://archaeolink.github.io/hgis_rdf/DAN_steel_production_1892> a <http://www.w3.org/ns/ldp#Resource>,
+        sosa:Observation,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Danzig steel production observation for year 1892"@en ;
+    sosa:hasFeatureOfInterest <http://archaeolink.github.io/hgis_rdf/DAN> ;
+    sosa:hasResult <http://archaeolink.github.io/hgis_rdf/DAN_steel_production_1892_result> ;
+    sosa:observedProperty <http://www.wikidata.org/entity/Q11427> ;
+    sosa:phenomenonTime <http://archaeolink.github.io/hgis_rdf/DAN_steel_production_1892_te> ;
+    ns1:P1480 <http://www.wikidata.org/entity/Q60070514> .
+
