@@ -26,12 +26,9 @@ jobs:
         prefixns: http://archaeolink.github.io/hgis_rdf/
         prefixnsshort: hgis
         indexpages: true
-        ckan: true
-        metadatatable: true
-        offlinecompat: true
-        exports: json ttl
         createcollections: true
         createnonNSPages: true
         createVOWL: true
+        metadatatable: true
         preferredlang: en
         ghpages: true
