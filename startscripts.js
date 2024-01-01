@@ -75,6 +75,10 @@ var namespaces={"rdf":"http://www.w3.org/1999/02/22-rdf-syntax-ns#","xsd":"http:
       document.getElementById("mySidenav").style.width = "0";
     }
     
+    function exportChartJS(){
+        saveTextAsFile(JSON.stringify({"xValues":xValues,"yValues":yValues}),"json")
+    }
+    
     function exportGeoJSON(){
         if(typeof(feature) !== "undefined"){
             saveTextAsFile(JSON.stringify(feature),"geojson")
