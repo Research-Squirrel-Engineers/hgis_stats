@@ -54,13 +54,6 @@ var minivowlresult={
  "links": [
   {
    "source": 3,
-   "target": 4,
-   "valueTo": "phenomenonTime",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/sosa/phenomenonTime"
-  },
-  {
-   "source": 3,
    "target": 8,
    "valueTo": "observedProperty",
    "propertyTo": "class",
@@ -79,6 +72,13 @@ var minivowlresult={
    "valueTo": "hasFeatureOfInterest",
    "propertyTo": "class",
    "uriTo": "http://www.w3.org/ns/sosa/hasFeatureOfInterest"
+  },
+  {
+   "source": 3,
+   "target": 4,
+   "valueTo": "phenomenonTime",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/sosa/phenomenonTime"
   },
   {
    "source": 2,
