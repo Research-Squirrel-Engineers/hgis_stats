@@ -18,7 +18,7 @@ Alte Universitätsstraße 19
 55116 Mainz
 Germany
 
-Even though no explicit data license is stated on the given homepage, we believe that the time series data are fact-based and published research and that this data is free to use in a data example context such as this.
+Even though no explicit data license is stated on the given homepage, we believe that the time series data are fact-based and free to use in a context like this.
 If there are legitimate concerns by the HGIS project concerning this publication in this way, please contact us at qgisplugin@sparqlunicorn.link 
 
 ## Data Conversion
