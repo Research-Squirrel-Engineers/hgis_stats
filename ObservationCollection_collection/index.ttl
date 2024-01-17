@@ -4,7 +4,7 @@
 <http://archaeolink.github.io/hgis_rdf/ObservationCollection_collection> a skos:Collection,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "ObservationCollection Instances Collection" ;
+    rdfs:label "ObservationCollection Instances Collection"@en ;
     rdfs:member <http://archaeolink.github.io/hgis_rdf/ACH_bituminous_coal_production>,
         <http://archaeolink.github.io/hgis_rdf/ACH_brown_coal_production>,
         <http://archaeolink.github.io/hgis_rdf/ACH_ore_production>,

@@ -4,7 +4,7 @@
 <http://archaeolink.github.io/hgis_rdf/Instant_collection> a skos:Collection,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Instant Instances Collection" ;
+    rdfs:label "Instant Instances Collection"@en ;
     rdfs:member <http://archaeolink.github.io/hgis_rdf/ACH_bituminous_coal_production_1850_te>,
         <http://archaeolink.github.io/hgis_rdf/ACH_bituminous_coal_production_1851_te>,
         <http://archaeolink.github.io/hgis_rdf/ACH_bituminous_coal_production_1852_te>,

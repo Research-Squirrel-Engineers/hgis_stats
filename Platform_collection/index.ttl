@@ -4,7 +4,7 @@
 <http://archaeolink.github.io/hgis_rdf/Platform_collection> a skos:Collection,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Platform Instances Collection" ;
+    rdfs:label "Platform Instances Collection"@en ;
     rdfs:member <http://archaeolink.github.io/hgis_rdf/ACH>,
         <http://archaeolink.github.io/hgis_rdf/ADK>,
         <http://archaeolink.github.io/hgis_rdf/ALL>,
