@@ -6,7 +6,7 @@ This repository provides data derivations of time series data in the [HGIS eKomp
 
 It serves as a showcase for the time series visualization capabilities of the SPARQL Unicorn Ontology documentation script.
 
-## Data Origin   
+## Data Origin    
  
 The original data in XLS has been published on this homepage http://www.ekomp.digihist.de/Dokumentation_Datensaetze/Zeitreihen/ by
 
